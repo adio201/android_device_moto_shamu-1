@@ -165,6 +165,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	
 PRODUCT_COPY_FILES += \
     device/moto/shamu/viper/Viper4Android.apk:system/app/Viper4Android/Viper4Android.apk \
+	device/moto/shamu/viper/libV4AJniUtils.so:system/app/Viper4Android/lib/arm/libV4AJniUtils.so \
 	device/moto/shamu/viper/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so \
 	device/moto/shamu/priv-app/TriggerEnroll/TriggerEnroll.apk:system/priv-app/TriggerEnroll/TriggerEnroll.apk \
 	device/moto/shamu/priv-app/TriggerTrainingService/TriggerTrainingService.apk:system/priv-app/TriggerTrainingService/TriggerTrainingService.apk \
